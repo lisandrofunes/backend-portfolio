@@ -26,7 +26,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/portfolio")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = {"https://lisandro-funes.web.app"})
 public class PortfolioController {
 
     @Autowired

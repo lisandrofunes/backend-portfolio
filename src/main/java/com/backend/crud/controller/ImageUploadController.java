@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = {"https://lisandro-funes.web.app"})
 @RequestMapping(path = "/image")
 public class ImageUploadController {
 

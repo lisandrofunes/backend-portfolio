@@ -31,7 +31,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/about")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = {"https://lisandro-funes.web.app"})
 public class SobreMiController {
     
     @Autowired
