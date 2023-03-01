@@ -29,7 +29,7 @@ import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin
+@CrossOrigin(origins = {"https://lisandro-funes.web.app"})
 public class AuthController {
 
     @Autowired
